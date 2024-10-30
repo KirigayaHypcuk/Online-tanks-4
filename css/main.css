@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+}
+
+
+body {
+    height: 800px;;
+    background-image: url(https://images3.alphacoders.com/117/thumb-1920-1172538.jpg);
+}
+
+.font {
+    font-family: "Oxanium", Serif;
+    font-weight: 800;
+    font-optical-sizing: auto;
+    font-style: italic;
+}
+
+#h1 {
+    color:aqua;
+    text-align: center;
+    font-size: 3em;
+    position:relative;
+    float: left;
+    left:30%;
+    top:30px;
+}
+
+
+#strelka {
+    text-align: center;
+    position: relative;
+    display: inline;
+    font-size: 2em;
+    color: rgb(254, 64, 64);
+    float: left;
+    top:31%;
+    left:5%;
+    cursor: default;
+}
+
+#knopka {
+    display: block;
+    position: relative;
+    height: 80px;
+    width:170px;
+    background-color: rgb(32, 205, 156);
+    border:solid #fff 4px;
+    border-radius:10px;
+    color:chocolate;
+    line-height: 80px;
+    text-align: center;
+    float: left;
+    top:40%;
+    right:103px;
+
+}
+
+#knopka:hover {
+    background-color:darkcyan;
+    cursor: default;
+    height:85px;
+    width:177px;
+    opacity: 0.7;
+}
+.aside {
+    height:100%;
+    width:20%;
+    float:right;
+    background:rgb(18, 11, 12);
+    display:block;
+    border-left:#f8f5f5ca solid 3px;
+    opacity: 0.8;
+    line-height: 80px;
+}
+
+
+li {
+    color:rgb(175, 178, 184);
+    float:left;
+    display: inline;
+    top:5px;
+    position: relative;
+    font-size: 0.9em;
+    left:20px;
+}
+
+
+#h2 {
+    color:#fff;
+    text-align: center;
+}
+
+a {
+    color: #9e9a9a;
+    text-decoration: none;
+    cursor:default;
+}
+
+a:hover {
+    color: #fff;
+}
